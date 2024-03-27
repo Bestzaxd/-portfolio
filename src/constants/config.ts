@@ -10,6 +10,10 @@ type TConfig = {
     fullName: string;
     email: string;
   };
+  hero: {
+    name: string;
+    p: string[];
+  };
   contact: {
     form: {
       name: {
@@ -39,6 +43,10 @@ export const config: TConfig = {
     title: "Sorana Noksawant",
     fullName: "Best",
     email: "s6503052422086@email.kmutnb.ac.th",
+  },
+  hero: {
+    name: "John Doe",
+    p: ["I develop 3D visuals, user", "interfaces and web applications"],
   },
   contact: {
     p: "Get in touch",
