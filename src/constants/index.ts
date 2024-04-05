@@ -8,29 +8,26 @@ import type {
 } from "../types";
 
 import {
-  mobile,
+  Network,
   backend,
-  creator,
+  Ns,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
-  git,
+  github,
   figma,
-  docker,
+  MYsql,
   Phrapokklao,
   SNC,
   Advice,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -54,16 +51,16 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Network Engineer",
+    icon: Network,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Network Systems",
+    icon: Ns,
   },
 ];
 
@@ -89,14 +86,6 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -105,90 +94,60 @@ const technologies: TTechnology[] = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
+    name: "github",
+    icon: github,
   },
   {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "MYsql",
+    icon: MYsql,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Electronic Technician",
+    companyName: "Phrapokklao Hospital",
     icon: Phrapokklao,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2019 - February 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Monitoring and maintaining the CCTV network LAN cable system, including replacing LAN cables when necessary to ensure stable communication and data transmission.",
+      "Upgrading or replacing the data storage system of the CCTV, such as increasing storage capacity or improving efficiency. ",
+      "Inspecting and maintaining the emergency call buttons of hospital beds to ensure they are operational and efficient.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "production line",
+    companyName: "SNC Former Public Company Limited",
     icon: SNC,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2021 - June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working on assembling air conditioning equipment and maintaining machinery used in air conditioning production.",
+      
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Stock Management Department",
+    companyName: "Advance IT Infrastructure Co., Ltd. (Public)",
     icon: Advice,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2021 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managing customer orders based on system indications, ensuring accuracy and timeliness.",
+      "Conducting thorough product checks to verify inventory completeness and quality assurance.",
+      "Receiving incoming shipments from primary suppliers and meticulously logging them into the system for inventory tracking and management.",
+      
     ],
   },
 ];
 
 const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects: TProject[] = [
