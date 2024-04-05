@@ -4,7 +4,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Navbar,
   Tech,
   Works,
