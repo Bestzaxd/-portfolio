@@ -22,8 +22,8 @@ import Advice from "./company/Advice.png";
 import Phrapokklao from "./company/Phrapokklao.png";
 import SNC from "./company/SNC.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import addshop from "./addshop.png";
+import Quiz from "./Quiz.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -48,7 +48,7 @@ export {
   Advice,
   Phrapokklao,
   SNC,
-  carrent,
-  jobit,
+  addshop,
+  Quiz,
   tripguide,
 };
